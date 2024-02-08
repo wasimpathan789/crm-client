@@ -1,0 +1,40 @@
+.membersForm {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 500px;
+  padding: 30px 20px;
+  gap: 10px;
+}
+.membersForm > h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  text-align: center;
+}
+.membersForm > input {
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border: none;
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+.memberDropdown {
+  width: 100px;
+  padding: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submitBtn > button {
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  border: none;
+}

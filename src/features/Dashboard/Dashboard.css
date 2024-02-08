@@ -1,0 +1,24 @@
+.dashboardContens {
+  height: var(90vh-100px);
+  /* background-color: red; */
+  height: 73vh;
+  overflow: scroll;
+  scrollbar-width: 0px;
+}
+.chartsContainer {
+  display: grid;
+  gap: 20px;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+.platformChart {
+  /* height: 200px;
+  height: 80%; */
+  /* background-color: yellow; */
+  overflow: hidden;
+  /* width: fit-content; */
+  border: 1px solid red;
+}
+.stateChart {
+  border: 1px solid green;
+  height: 200px;
+}

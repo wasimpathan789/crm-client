@@ -1,0 +1,42 @@
+.sContainer {
+  width: 250px;
+  background-color: black;
+  height: 97vh;
+  /* padding: 10px; */
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  box-shadow: white 0px 10px 10px -10px;
+  padding: 10px;
+  height: 50px;
+}
+.top > h3 {
+  font-size: 20px;
+  color: pink;
+  font-family: Poppins;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 30px;
+}
+.itemsLink {
+  /* background-color: red; */
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Poppins;
+  margin-bottom: 10px;
+}
+.itemsLink:hover {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: gray;
+}
